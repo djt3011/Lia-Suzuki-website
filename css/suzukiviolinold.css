@@ -1,0 +1,51 @@
+#pagecontainer {
+	background-color: #FFF;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	border: 2px ridge #D4D4D4;
+	height: auto;
+}
+#calendar {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+#bodycontainer {
+	width: 830px;
+	padding: 10px;
+}
+#leftcontainer {
+	float: left;
+	width: 610px;
+	margin-right: 20px;
+}
+
+#rightcontainer {
+	float: left;
+	width: 200px;
+}
+
+
+#studentimage {
+	height: 180px;
+	width: 140px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	float: left;
+	padding-top: 1px;
+}
+#suzuki_image {
+	width: 150px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	float: left;
+	padding-top: 1px;
+}
+
+.tablepadding {
+	padding-bottom: 10px;
+}
