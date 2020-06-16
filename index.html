@@ -880,23 +880,26 @@ From ages 6 and up the parent is responsible for attending the lessons and takin
       
       
       
+    
     <iframe
-      id="JotFormIFrame-81304858389165"
+      id="JotFormIFrame-201596380201145"
+      title="Suzuki Violin Phoenix"
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
       allowfullscreen="true"
       allow="geolocation; microphone; camera"
-      src="https://form.jotform.com/81304858389165"
+      src="https://form.jotform.com/201596380201145"
       frameborder="0"
-      style="width: 1px;
+      style="
       min-width: 100%;
-      height:503px;
+      height:838px;
       border:none;"
       scrolling="no"
     >
     </iframe>
+	
     <script type="text/javascript">
-      var ifr = document.getElementById("JotFormIFrame-81304858389165");
+      var ifr = document.getElementById("JotFormIFrame-201596380201145");
       if(window.location.href && window.location.href.indexOf("?") > -1) {
         var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
         if(ifr && get.length > 0) {
@@ -906,6 +909,7 @@ From ages 6 and up the parent is responsible for attending the lessons and takin
         }
       }
       window.handleIFrameMessage = function(e) {
+        if (typeof e.data === 'object') { return; }
         var args = e.data.split(":");
         if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
         if (!iframe) { return; }
@@ -953,8 +957,7 @@ From ages 6 and up the parent is responsible for attending the lessons and takin
       } else if (window.attachEvent) {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
-      </script>
-      
+      </script>  
       
       
       
